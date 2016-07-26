@@ -1,7 +1,15 @@
 {
   "name": "Hawker.me",
+  "description": "The website Hawker.me",
   "version": "0.1.0",
   "author": "Ben Hawker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hwkr/hawker.me.git"
+  },
+  "bugs": "https://github.com/hwkr/hawker.me/issues",
+  "contributors": "https://github.com/hwkr/hawker.me/graphs/contributors",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "grunt": "^0.4.5",
