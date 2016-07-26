@@ -14,6 +14,8 @@
   ],
   "dependencies": {
     "font-awesome": "fontawesome#^4.6.1",
-    "normalize-scss": "normalize.scss#^4.1.0"
+    "normalize-scss": "normalize.scss#^4.1.0",
+    "fullpage.js": "^2.8.2",
+    "jquery": "^3.1.0"
   }
 }

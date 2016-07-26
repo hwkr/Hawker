@@ -33,3 +33,4 @@ bower_components
 
 *.css
 static/fonts
+static/js/*.min.js

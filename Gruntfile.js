@@ -27,6 +27,12 @@ module.exports = function(grunt) {
         flatten: true,
         src: ['bower_components/font-awesome/fonts/*'],
         dest: 'static/fonts'
+      },
+      jquery: {
+        expand: true,
+        flatten: true,
+        src: ['bower_components/jquery/dist/jquery.min.js'],
+        dest: 'static/js/'
       }
     },
 
@@ -42,6 +48,18 @@ module.exports = function(grunt) {
       },
       dist: {
         src: 'static/css/*.css'
+      }
+    },
+
+    //Minifies Javascript
+    uglify: {
+      dist: {
+        files: {
+          'static/js/hawker.min.js': [
+           'bower_components/fullpage.js/jquery.fullPage.js',
+           'static/js/main.js'
+          ]
+        }
       }
     },
 
@@ -62,5 +80,5 @@ module.exports = function(grunt) {
 
   //grunt serve
   grunt.registerTask('default', ['build', 'watch']);
-  grunt.registerTask('build', ['sass', 'copy', 'postcss']);
+  grunt.registerTask('build', ['sass', 'copy', 'postcss', 'uglify']);
 };
