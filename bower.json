@@ -1,0 +1,19 @@
+{
+  "name": "Hawker",
+  "description": "The website Hawker.me",
+  "main": "layouts/index.html",
+  "authors": [
+    "Ben Hawker"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hwkr/Hawker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.1",
+    "normalize-scss": "normalize.scss#^4.1.0"
+  }
+}
