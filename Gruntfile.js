@@ -33,12 +33,6 @@ module.exports = function(grunt) {
         flatten: true,
         src: ['bower_components/jquery/dist/jquery.min.js'],
         dest: 'static/js/'
-      },
-      fullPage: {
-        expand: true,
-        flatten: true,
-        src: ['bower_components/fullpage.js/jquery.fullPage.min.js', 'bower_components/fullpage.js/vendors/scrolloverflow.min.js'],
-        dest: 'static/js/'
       }
     },
 
@@ -62,6 +56,9 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'static/js/hawker.min.js': [
+            'bower_components/jquery.easing/jquery.easing.js',
+            'bower_components/jquery.scrollTo/jquery.scrollTo.js',
+            'bower_components/jquery.fullContent/js/jquery.fullContent.js',
             'static/js/src/**/*.js'
           ]
         }
