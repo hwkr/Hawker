@@ -1,6 +1,9 @@
 // Reset default browser styles using Normalize
 @import "../../../bower_components/normalize-scss/sass/normalize/import-now.scss";
 
+// Import fullPage.js Styles
+@import "../../../bower_components/fullpage.js/jquery.fullPage.scss";
+
 // Install FontAwesome for useful icons
 @import "../../../bower_components/font-awesome/scss/font-awesome.scss";
 
